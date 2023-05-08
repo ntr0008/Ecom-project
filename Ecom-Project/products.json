@@ -1,0 +1,85 @@
+[
+  {
+    "shipModel": "Coreillian YT-1300 freighter",
+    "shipPhoto": "images/YT-1300-Freighter.webp",
+    "shipPrice": "100,000 Galactic Credits",
+    "shipDescription": "Standard YT-1300s possesses powerful Girodyne SRB42 sublight engines and an Avatar-10 hyperdrive and are powered by a Quadex power core. A SuperFlow IV computer controlles the ship's most critical functions while a Rubicon navicomputer can handle navigation tasks and calculate paths for hyperspace jumps."
+  },
+
+  {
+    "shipModel": "VCX-100 light freighter",
+    "shipPhoto": "images/VCX-100.webp",
+    "shipPrice": "155,000 Galactic Credits",
+    "shipDescription": "The VCX-100 is outfitted with sleeping quarters, a galley, and a common room. Its armament comprised a dorsal turret and a frontal-turret, the latter being controlled by a gunner in its seat or from the cockpit. VCX-100s also have a slot in between its main engines, into which a VCX-series auxiliary starfighter could dock. "
+  },
+
+  {
+    "shipModel": "YV-666 light freighter",
+    "shipPhoto": "images/YV-666-Freighter.webp",
+    "shipPrice": "132,000 Galactic Credits",
+    "shipDescription": "The YV-666 is a long, tall, narrow, and blocky freighter with port and starboard maneuvering fins at the rear that provided vertical movement and a three-deck design. Its main deck is large enough to be modified to house private quarters, a training chamber, an armory, an advance medical bay and even a brig."
+  },
+
+  {
+    "shipModel": "X4 Gunship",
+    "shipPhoto": "images/X4-Gunship.webp",
+    "shipPrice": "200,000 Galactic Credits",
+    "shipDescription": "The ship's multiple decks provides adequate room for passengers and cargo. It is heavily armed with two forward mounted guns, three dorsal mounted turrets and three mounted turrets on its ventral surface. It also carries the heavy shields and armor typical of gunships, along with the relatively slow speeds and maneuvering."
+  },
+
+  {
+    "shipModel": "DP20 Frigate",
+    "shipPhoto": "images/Corellian-gunship.webp",
+    "shipPrice": "3,200,000 Galactic Credits",
+    "shipDescription": "The DP20 Frigate, also known colloquially as the Corellian Gunship, its hull was composed of three hull sections that are strung along a single, reinforced multi-decked corridor. The DP20 is equipped with an oversized ionization reactor which gives it significant speed. It is also equipped with a class 2 primary hyperdrive. DP20 Frigates has powerful targeting computers and were heavily shielded. It has a long-range sensor and a navigation computer."
+  },
+
+  {
+    "shipModel": "Braha'tok-class gunship",
+    "shipPhoto": "images/Brahatok-Gunship.webp",
+    "shipPrice": "1,400,000 Galactic Credits",
+    "shipDescription": "The Braha'tok-class gunship, also referred to as the Dornean gunship, is a type of gunship built at 90 meters long, and can reach speeds of 800 kph in a planet's atmosphere. It also has a silver-plated hull to deflect solar radiation which is very durable and is reinforced by the quick cycling deflector shield generators that can protect from rapid-fire weapons."
+  },
+
+  {
+    "shipModel": "Luxury 3000 space yacht",
+    "shipPhoto": "images/Luxury-Yacht-3000.webp",
+    "shipPrice": "250,000 Galactic Credits",
+    "shipDescription": "The Personal Luxury Yacht 3000 is 50 meters long, with a pair of engine pods that extended from the main hull. Each pod houses a sublight engine and a hyperdrive engine. It also has an observational level with an exterior deck near the aft of the ship, while the interior compartment has a small jet-stream meditation pool and several conform-couches. The main deck offers a dining area, a large private suite, and five visitor cabins, as well as the escape pods, the bridge and the main control systems. "
+  },
+
+  {
+    "shipModel": "Minstrel-class space yacht",
+    "shipPhoto": "images/Minstrel-class-space-yacht.webp",
+    "shipPrice": "1,750,000 Galactic Credits",
+    "shipDescription": "the Minstrel-class space yacht is powered by a pair of Ubrikkian N2 ion engines, and supplemented by three smaller Kuat T-c40 ion engines. Two rear vanes acting as ailerons, and side-mounted maneuvering jets mounted on six retractable rods helps the yacht reach an atmospheric top speed of eight hundred kilometers per hour. "
+  },
+
+  {
+    "shipModel": "Courier-class yacht",
+    "shipPhoto": "images/Courier-Class-Yacht.webp",
+    "shipPrice": "185,000 Galactic Credits",
+    "shipDescription": "The Courier-class yacht iss a long and sleek-hulled craft, aerodynamic, with a pair of trim wings that tipped upwards at the end. At the base of these wings, twin engines are mounted, giving the craft excellent speed for its size."
+  },
+
+  {
+    "shipModel": "Imperial I-class Star Destroyer",
+    "shipPhoto": "images/Imperial-Class-Star-Destroyer.webp",
+    "shipPrice": "150,000,000 Galactic Credits",
+    "shipDescription": "The Imperial-class Star Destroyer bristles with weapons emplacements. 60 Taim & Bak XX-9 heavy turbolaser batteries, 60 Borstel NK-7 ion cannons, and 10 Phylon Q7 tractor beam projectors dotted its whitish gray hull. On the underside of the very tip of the ISD was the navigational deflector generator. It workes in tandem with the two bridge deflector shield domes to give the ship heavy shielding."
+  },
+
+  {
+    "shipModel": "Subjugator-class heavy cruiser",
+    "shipPhoto": "images/Subjugator-Class-Cruiser.webp",
+    "shipPrice": "875,500,000 Galactic Credits",
+    "shipDescription": "Built around a pair of massive mega-ion cannons, the Subjugator-class heavy cruiser maintained a bulky, split-level prow suggestive of a mouthful of ragged teeth, as a well as a narrow stern that tapered to the ship's propulsion array. An armored dorsal blister amid-ships contained the cruiser's command bridge, as well as a secondary bridge located an aft-ward spar directly above the engine units."
+  },
+
+  {
+    "shipModel": " Executor-class Star Dreadnought",
+    "shipPhoto": "images/Executor-Class-Dreadnought.webp",
+    "shipPrice": "325,000,000,000 Galactic Credits",
+    "shipDescription": "One of the largest and most powerful Imperial vessels ever created, the Executor was 19,000 meters long, eclipsing its escorting Imperial-class Star Destroyers, and boasted more than 5,000 turbolasers and ion cannons. The center of the arrowhead-shaped hull, constructed of an alusteel alloy of reinforced titanium, was covered by a city-like superstructure, while the underside hosted most of the engineering systems."
+  }
+]

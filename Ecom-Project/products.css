@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  color: #555;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/Mustafar.webp");
+
+  height: 90%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 14px 16px;
+}
+
+a {
+  text-decoration: none;
+  color: seashell;
+}
+
+li {
+  list-style: none;
+  float: right;
+}
+
+li a {
+  color: #d9cc48;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  color: #ede7a9;
+  border-radius: 1rem;
+}
+
+.nav-menu {
+  font: small-caps bold 18px/30px Berling;
+  letter-spacing: 1px;
+  position: relative;
+  padding-left: 35px;
+  z-index: 10;
+}
+
+.nav-borader {
+  border: solid #d9cc48;
+  border-radius: 1rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-gap: 50px;
+  margin: 50px auto;
+  max-width: 1240px;
+  padding: 20px;
+}
+.product {
+  padding: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.product img {
+  width: 100%;
+  display: block;
+  padding-bottom: 20px;
+}
+.product .title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #d9cc48;
+}
+.product .description {
+  padding: 0 20px 20px 20px;
+  line-height: 22px;
+  color: #ede7a9;
+}
+.product .price {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  color: #d9cc48;
+  padding-top: 30px;
+  font-family: sans-serif;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+.product .cart {
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font: bold 16px "News Gothic", "Arial Narrow", arial, sans-serif;
+  background-color: #d9cc48;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 0 2px #351f00;
+  cursor: pointer;
+}
+.product .cart i {
+  padding-left: 10px;
+}
+.view-more {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 20px;
+  text-align: center;
+}
+.view-more button {
+  padding: 10px 25px;
+}
+
+.footer {
+  background-color: black;
+  padding: 0.1rem 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-borader {
+  border: solid #d9cc48;
+  border-radius: 1rem;
+}
