@@ -25,3 +25,8 @@ http.onload = function () {
     document.querySelector(".products").innerHTML = output;
   }
 };
+if (window.chrome && chrome.app && chrome.app.runtime) {
+  `Running successfully in a Chrome App context `;
+} else {
+  `// The app is either not Chrome-based, or not as an app window `;
+}
