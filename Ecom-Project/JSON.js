@@ -25,8 +25,22 @@ http.onload = function () {
     document.querySelector(".products").innerHTML = output;
   }
 };
-if (window.chrome && chrome.app && chrome.app.runtime) {
-  `Running successfully in a Chrome App context `;
-} else {
-  `// The app is either not Chrome-based, or not as an app window `;
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
 }
