@@ -37,6 +37,27 @@ li a:hover {
   border-radius: 1rem;
 }
 
+li {
+  display: contents;
+}
+ul {
+  display: contents;
+}
+
+li {
+  float: right;
+}
+
+h1 {
+  color: #d9cc48;
+  text-align: center;
+  font: small-caps bold 1.5rem Berling;
+}
+
+.row {
+  background-color: #1d1d23;
+}
+
 .nav-menu {
   font: small-caps bold 18px/30px Berling;
   letter-spacing: 1px;
@@ -45,21 +66,112 @@ li a:hover {
   z-index: 10;
 }
 
+.nav-icon {
+  font-size: 1.5rem;
+}
+.cart-btn {
+  position: relative;
+  cursor: pointer;
+  color: #d9cc48;
+}
+.cart-items {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: var(--primaryColor);
+  padding: 0 5px;
+  border-radius: 30%;
+  color: var(--mainWhite);
+}
+
 .nav-borader {
   border: solid #d9cc48;
   border-radius: 1rem;
 }
 
 .footer {
-  background-color: black;
+  background: #1d1d23;
   padding: 0.1rem 0.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+.footer-navbar {
+  text-align: center;
+  margin-top: 0.938rem;
+}
+.footer-navbar a {
+  color: #d9cc48;
+  font-size: 1.125rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0.3rem;
+  text-decoration: none;
+}
+
+.copy {
+  color: #d9cc48;
+}
 
 .footer-borader {
   border: solid #d9cc48;
   border-radius: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #d9cc48;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ede7a9;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  background-color: #1d1d23;
+  color: #d9cc48;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
 }

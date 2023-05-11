@@ -4,26 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="contact.css">
+    <script
+      src="https://kit.fontawesome.com/b57ed8fbe8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="contact.css" />
     <title>Contact</title>
   </head>
   <body>
     <nav class="navbar">
-        <div class="logo"></div>
-        <ul class="nav-menu">
-          <li class="nav-item"><a class="nav-link-a" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link"href="Products.html">Products</a></li>
-          <li class="nav-item"><a class="nav-link"href="index.html">Home</a></li>
-      </nav>
-      <footer>
-        <section class="footer">
-            <div class="footer-tab"></div>
-            <ul class="footer-links">
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="Products.html">Products</a></li>
-                <li><a href="index.html">Home</a></li>
-              </ul>
-        </section>
+      <div class="logo"><h1>Kestis Shipyard</h1></div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a class="nav-link-a" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-a" href="News-page.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <div class="cart-btn">
+        <span class="nav-icon"><i class="fas fa-cart-plus"></i></span>
+        <div class="cart-items"></div>
+      </div>
+    </nav>
+    <div class="nav-borader"></div>
+
+    <section class="container">
+      <section style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Leave us a message:</p>
+      </section>
+      <div class="row">
+        <div class="column">
+          <img src="./images/coruscant-city.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your name.." required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your last name.." required>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email address.." required>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-borader"></div>
+    <footer>
+      <section class="footer">
+        <footer class="footer-navbar">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="News-page.html">News</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <span>
+            <br />
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a
+              href="https://twitter.com/?lang=en"
+              class="fa fa-twitter"
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              class="fa fa-instagram"
+            ></a>
+            <a
+              href="https://www.snapchat.com/en-US"
+              class="fa fa-snapchat"
+            ></a>
+            <p class="copy">&copy; 2023 Kestis Shipyard</p>
+          </span>
+        </footer>
+      </section>
     </footer>
   </body>
 </html>

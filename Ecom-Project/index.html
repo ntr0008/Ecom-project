@@ -4,31 +4,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css">
+    <script
+      src="https://kit.fontawesome.com/b57ed8fbe8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
     <title>Home</title>
   </head>
   <body>
     <nav class="navbar">
-      <div class="logo"></div>
+      <div class="logo"><h1>Kestis Shipyard</h1></div>
       <ul class="nav-menu">
-        <li class="nav-item"><a class="nav-link-a" href="contact.html">Contact</a></li>
-        <li class="nav-item"><a class="nav-link"href="Products.html">Products</a></li>
-        <li class="nav-item"><a class="nav-link"href="index.html">Home</a></li>
+        <li class="nav-item">
+          <a class="nav-link-a" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-a" href="News-page.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="cart-btn">
+        <span class="nav-icon"><i class="fas fa-cart-plus"></i></span>
+        <div class="cart-items"></div>
+      </div>
     </nav>
-    <div class="nav-borader"></div>
 
-    <section class="hero-image"></section>
+    <h1>Welcome to the Kestis Shipyard</h1>
 
-    <div class="footer-borader"></div>
-    <footer>
-        <section class="footer">
-            <div class="footer-tab"></div>
-            <ul class="footer-links">
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="Products.html">Products</a></li>
-                <li><a href="index.html">Home</a></li>
-              </ul>
+    <section class="hero-image">
+      <div class="nav-borader"></div>
+
+      <section class="banner">
+        <h1 class="banner-title">Starship Collection</h1>
+        <a href="Products.html"><button class="banner-btn">Shop Now</button></a>
+      </section>
+    </section>
+
+    <section class="sect-1">
+      <h1>We have the fastest ships in the galaxy</h1>
+      <section id="slideshow-example" data-component="slideshow">
+        <section role="list">
+          <section class="slide">
+            <img class="slides" src="images/Courier-Class-Yacht.webp" alt="" />
+          </section>
+          <section class="slide">
+            <img
+              class="slides"
+              src="images/Executor-Class-Dreadnought.webp"
+              alt=""
+            />
+          </section>
+          <section class="slide">
+            <img class="slides" src="images/VCX-100.webp" alt="" />
+          </section>
         </section>
-    </footer>
+
+        <div class="footer-borader"></div>
+        <footer>
+          <section class="footer">
+            <footer class="footer-navbar">
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="News-page.html">News</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+              <span>
+                <br />
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a
+                  href="https://twitter.com/?lang=en"
+                  class="fa fa-twitter"
+                ></a>
+                <a
+                  href="https://www.instagram.com/"
+                  class="fa fa-instagram"
+                ></a>
+                <a
+                  href="https://www.snapchat.com/en-US"
+                  class="fa fa-snapchat"
+                ></a>
+                <p class="copy">&copy; 2023 Kestis Shipyard</p>
+              </span>
+            </footer>
+          </section>
+        </footer>
+        <script src="slideshow.js"></script>
+      </section>
+    </section>
   </body>
 </html>

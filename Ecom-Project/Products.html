@@ -4,32 +4,121 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="products.css">
+    <script
+      src="https://kit.fontawesome.com/b57ed8fbe8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="products.css" />
     <title>Products</title>
   </head>
   <body>
     <nav class="navbar">
-        <div class="logo"></div>
-        <ul class="nav-menu">
-          <li class="nav-item"><a class="nav-link-a" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link"href="Products.html">Products</a></li>
-          <li class="nav-item"><a class="nav-link"href="index.html">Home</a></li>
-      </nav>
+      <div class="logo"><h1>Kestis Shipyard</h1></div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a class="nav-link-a" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-a" href="News-page.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="cart-btn">
+        <span class="nav-icon"><i class="fas fa-cart-plus"></i></span>
+        <div class="cart-items"></div>
+      </div>
+    </nav>
+    <div class="nav-borader"></div>
+    <div class="hero-image"></div>
 
-      <div class="hero-image"></div>
+    <section class="products">
+      <div class="section-title">
+        <h2>our product</h2>
+      </div>
+    </section>
 
-      <div class="products"></div>
+    <div class="products-center">
+      <!-- <article class="product">
+        <div class="img-container">
+          <img
+            src="./images/coruscant.jpeg"
+            alt="coruscant"
+            class="product-img"
+          />
+          <button class="bag-btn" data-id="1">
+            <i class="fas fa-shopping-cart"></i>Add to bag
+          </button>
+        </div>
+        <h3>VCX-100 light freighter</h3>
+        <h4>155,000 Galactic Credits</h4>
+      </article> -->
+    </div>
 
-      <footer>
-        <section class="footer">
-            <div class="footer-tab"></div>
-            <ul class="footer-links">
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="Products.html">Products</a></li>
-                <li><a href="index.html">Home</a></li>
-              </ul>
-        </section>
-    </footer>
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+          <div class="cart-item">
+            <img src="./images/VCX-100.webp" alt="" />
+            <div>
+              <h4>VCX-100 light freighter</h4>
+              <h5>155,000 Galactic Credits</h5>
+              <span class="remove-item">Remove</span>
+            </div>
+            <div>
+              <i class="fas fa-chevron-up"></i>
+              <p class="item-amount">1</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cart-footer">
+          <h3>Your Total : $ <span class="cart-total">155,000</span></h3>
+          <button class="clear-cart banner-btn">Clear Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-borader"></div>
+    <footer>
+      <section class="footer">
+        <footer class="footer-navbar">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="News-page.html">News</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <span>
+            <br />
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a
+              href="https://twitter.com/?lang=en"
+              class="fa fa-twitter"
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              class="fa fa-instagram"
+            ></a>
+            <a
+              href="https://www.snapchat.com/en-US"
+              class="fa fa-snapchat"
+            ></a>
+            <p class="copy">&copy; 2023 Kestis Shipyard</p>
+          </span>
+        </footer>
     <script src="JSON.js"></script>
   </body>
 </html>
